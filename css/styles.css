@@ -5,6 +5,7 @@
 
 body {
   font-family:sans-serif ;
+  background-color: #474c50;;
 }
 
 #main-nav {
@@ -41,9 +42,8 @@ body {
   display: inline-block;
 }
 
-
 .main-menu-item a {
-  display: block;
+  display: inline-block;
   align-items:center;
   height: 28px;
   border-radius: 4px;
@@ -60,4 +60,26 @@ body {
   background-color: rgba(35,131,226,.28);
 }
 
+.container {
+  position: relative;
+}
 
+.image {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image2 {
+  position: absolute;
+  height: 140px;
+  width: 140px;
+  top: 220px;
+  left: 530px;
+}
