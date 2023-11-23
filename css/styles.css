@@ -8,6 +8,19 @@ body {
   background-color: #474c50;;
 }
 
+h1 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  padding-bottom: 3px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 3px;
+  width: 459px;
+  text-align: center;
+}
+
 #main-nav {
   background-color: #474c50;
   height: 45px;
@@ -82,4 +95,18 @@ body {
   width: 140px;
   top: 220px;
   left: 530px;
+}
+
+.main-page {
+  padding: 100px 20%;
+}
+
+.main-page-list {
+  background-color: #252525;
+  padding: 16px;
+  text-align: center;
+}
+
+.main-page-item {
+  list-style: none;
 }
