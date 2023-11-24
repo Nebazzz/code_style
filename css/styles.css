@@ -5,24 +5,51 @@
 
 body {
   font-family:sans-serif ;
-  background-color: #474c50;;
+  background-color: #252525;
 }
 
 h1 {
-  display: inline-block;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
-  line-height: 48px;
-  padding-bottom: 3px;
-  padding-left: 2px;
-  padding-right: 2px;
-  padding-top: 3px;
-  width: 459px;
   text-align: center;
 }
 
-#main-nav {
-  background-color: #474c50;
+h2 {
+  font-size: 35px;
+  padding: 5px;
+}
+
+h3 {
+  font-size: 22px;
+  padding: 5px;
+}
+
+p {
+  padding: 5px;
+  line-height: 1.3;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.81);
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+figure {
+  padding-top: 20px;
+  text-align: center;
+  color: darkorange;
+}
+
+/* Навигация и шапка с картинкой */
+
+
+
+.main-nav {
   height: 45px;
   text-align: right;
   color: rgba(255, 255, 255, 0.81);
@@ -47,17 +74,12 @@ h1 {
   line-height: 1.2;
 }
 
-#main-menu {
-  list-style: none;
-}
-
 .main-menu-item {
   display: inline-block;
 }
 
 .main-menu-item a {
   display: inline-block;
-  align-items:center;
   height: 28px;
   border-radius: 4px;
   font-size: 14px;
@@ -73,10 +95,6 @@ h1 {
   background-color: rgba(35,131,226,.28);
 }
 
-.container {
-  position: relative;
-}
-
 .image {
   height: 300px;
   width: 100%;
@@ -84,29 +102,38 @@ h1 {
 }
 
 .image1 {
-  position: relative;
   top: 0;
   left: 0;
 }
 
-.image2 {
+/* .image2 {
   position: absolute;
   height: 140px;
   width: 140px;
   top: 220px;
   left: 530px;
-}
+} */
+
+/* Основная страница */
+
 
 .main-page {
-  padding: 100px 20%;
+  padding: 50px 15%;
+  color: rgba(255, 255, 255, 0.81);;
 }
 
 .main-page-list {
-  background-color: #252525;
+  background-color: #474c50;
   padding: 16px;
   text-align: center;
+  border-radius: 10px;
 }
 
 .main-page-item {
   list-style: none;
+}
+
+.screenshot {
+  height: 400px;
+  padding: 10px;
 }

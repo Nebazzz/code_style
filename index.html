@@ -8,10 +8,12 @@
 </head>
 <body>
   <header>
-    <nav id="main-nav">
+    <nav class="main-nav">
       <div class="logo-header">
-        <img src="/images/mini-logo.png"
-        alt="маленький логотип Methed">
+        <img 
+        src="/images/mini-logo.png"
+        alt="маленький логотип Methed"
+        >
       </div>
       <ul id="main-menu"> 
         <li class="main-menu-item"><a href="#">Search</a></li>
@@ -22,15 +24,15 @@
     </nav>
   </header>
 
-  <section class="container">
+  <section>
     <img src="/images/Cover.jpg"
     alt=""
     class="image image1">
-    <img src="/images/cover-logo.png"
+    <!-- <img src="/images/cover-logo.png"
     alt=""
-    class="image image2">
+    class="image image2"> -->
   </section>
-
+  
   <section class="main-page">
     <h1>Code Style HTML</h1>
     <div class="main-page-list">
@@ -44,5 +46,39 @@
       </ul>
     </div>
   </section>
+
+    <article class="main-page">
+      <h2>!DOCTYPE</h2>
+      <p>В начале страницы обязательно должен быть указан актуальный &lt;!DOCTYPE html&gt;, чтобы работать в режиме стандартов и последовательного рендеринга элементов в каждом доступном браузере.
+      </p>
+
+      <section>
+        <h3>Атрибут локализации</h3>
+        <p>Для элемента &lt;html&gt; в атрибуте lang должен указываться соответствующий язык документа.
+        </p>
+        <p>Это нужно для правильной работы синтеза речи, для переводчиков и поисковиков.
+        </p>
+        <blockquote>
+          <cite>Вырезка из спецификации HTML5:</cite>
+          <p>Стиль кода (code style) — это набор правил, как писать код в проекте. Они могут включать прямые рекомендации, примеры кода, ссылки на лучшие практики, «рецепты», что делать в спорных ситуациях.</p>
+        </blockquote>
+      </section>
+
+        <section>
+          <h3>Кодировка символов документа</h3>
+          <p>Кодировка символов на странице всегда должна быть явно указана, чтобы обеспечить корректное отображение текста.
+          </p>
+          <figure>
+            <figcaption>Для Кириллицы нужно использовать UTF-8 кодировку, убедитесь что ваш документ так же имеет кодировку UTF-8
+            </figcaption>
+            <img class="screenshot"
+            src="/images/utf.png"
+            alt="Скриншот с примером как выглядит HTML-код с кодировкой UTF-8"
+            >
+          </figure>
+        </section>
+
+      
+    </article>
 </body>
 </html>
