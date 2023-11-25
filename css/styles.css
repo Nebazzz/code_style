@@ -37,6 +37,7 @@ a {
 
 li {
   margin-bottom: 5px;
+  list-style: none;
 }
 
 figure {
@@ -127,10 +128,6 @@ figure {
   text-align: center;
   border-radius: 10px;
   padding: 16px;
-}
-
-.main-page-item {
-  list-style: none;
 }
 
 .screenshot {
