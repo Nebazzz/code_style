@@ -40,11 +40,6 @@ li {
   list-style: none;
 }
 
-figure {
-  text-align: center;
-  color: darkorange;
-  padding-top: 20px;
-}
 
 /* Навигация и шапка с картинкой */
 
@@ -134,7 +129,31 @@ figure {
   list-style: none;
 }
 
+.figure {
+  text-align: center;
+  padding-top: 20px;
+  color: darkorange;
+}
+
 .screenshot {
   height: 400px;
   padding: 10px;
+}
+
+.inline {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 15px;
+  color: darkorange;
+}
+
+.screen1 {
+  height: 250px;
+  padding: 5px;
+}
+
+.screen2 {
+  height: 250px;
+  padding: 5px;
 }
