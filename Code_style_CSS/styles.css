@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:sans-serif ;
+  background-color: #252525;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  padding: 5px;
+}
+
+h3 {
+  font-size: 22px;
+  padding: 5px;
+}
+
+p {
+  line-height: 1.3;
+  padding: 5px;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.81);
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+figure {
+  text-align: center;
+  color: darkorange;
+  padding-top: 20px;
+}
+
+/* Навигация и шапка с картинкой */
+
+
+
+.main-nav {
+  height: 45px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.81);
+}
+
+.logo-header {
+  position: relative;
+  float: left;
+  padding-top: 5px;
+  padding-left: 16px;
+}
+
+.logo-header::after {
+  content: "Code Style HTML";
+  position: absolute;
+  height: 24px;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 143px;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.main-menu-item {
+  display: inline-block;
+}
+
+.main-menu-item a {
+  display: inline-block;
+  height: 28px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 2;
+  margin: 8.5px 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.81);
+}
+
+.main-menu-item a:hover {
+  background-color: rgba(35,131,226,.28);
+}
+
+.image {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* .image1 {
+  top: 0;
+  left: 0;
+} */
+
+/* .image2 {
+  position: absolute;
+  height: 140px;
+  width: 140px;
+  top: 220px;
+  left: 530px;
+} */
+
+/* Основная страница */
+
+
+.main-page {
+  padding: 50px 15%;
+  color: rgba(255, 255, 255, 0.81);;
+}
+
+.main-page-list {
+  background-color: #474c50;
+  text-align: center;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.main-page-item {
+  list-style: none;
+}
+
+.screenshot {
+  height: 400px;
+  padding: 10px;
+}
