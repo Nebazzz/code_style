@@ -25,8 +25,8 @@ h3 {
 }
 
 p {
-  padding: 5px;
   line-height: 1.3;
+  padding: 5px;
 }
 
 a {
@@ -40,9 +40,9 @@ li {
 }
 
 figure {
-  padding-top: 20px;
   text-align: center;
   color: darkorange;
+  padding-top: 20px;
 }
 
 /* Навигация и шапка с картинкой */
@@ -65,11 +65,11 @@ figure {
 .logo-header::after {
   content: "Code Style HTML";
   position: absolute;
+  height: 24px;
   left: 25px;
   top: 50%;
   transform: translateY(-50%);
   width: 143px;
-  height: 24px;
   font-size: 14px;
   line-height: 1.2;
 }
@@ -101,10 +101,10 @@ figure {
   object-fit: cover;
 }
 
-.image1 {
+/* .image1 {
   top: 0;
   left: 0;
-}
+} */
 
 /* .image2 {
   position: absolute;
@@ -124,9 +124,9 @@ figure {
 
 .main-page-list {
   background-color: #474c50;
-  padding: 16px;
   text-align: center;
   border-radius: 10px;
+  padding: 16px;
 }
 
 .main-page-item {
