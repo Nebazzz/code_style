@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color:bisque;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  line-height: 27px;
+  padding: 50px 15%;
+}
+
+h1 {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+
+p {
+  padding: 30px;
+}
+
+.wrapper {
+  padding: 20px 30px;
+}
+
+.title-item {
+  background-color: beige;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.list {
+  display: block;
+  padding: 30px;
+}
